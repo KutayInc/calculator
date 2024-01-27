@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-1 {
+  box-shadow: inset 0 -10px 0px -5px hsl(28, 16%, 65%);
+}
+.button-2 {
+  box-shadow: inset 0 -10px 0px -5px hsl(35, 11%, 61%);
+}
+.button-3 {
+  box-shadow: inset 0 -10px 0px -5px hsl(290, 70%, 36%);
+}
+.del-button-1 {
+  box-shadow: inset 0 -10px 0px -5px hsl(224, 28%, 35%);
+}
+.del-button-2 {
+  box-shadow: inset 0 -10px 0px -5px hsl(185, 58%, 25%);
+}
+.del-button-3 {
+  box-shadow: inset 0 -10px 0px -5px hsl(285, 91%, 52%);
+}
+
+.reset-button-1 {
+  box-shadow: inset 0 -10px 0px -5px hsl(6, 70%, 34%);
+}
+
+.reset-button-2 {
+  box-shadow: inset 0 -10px 0px -5px hsl(25, 99%, 27%);
+}
+.reset-button-3 {
+  box-shadow: inset 0 -10px 0px -5px hsl(177, 92%, 70%);
+}

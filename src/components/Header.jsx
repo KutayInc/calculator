@@ -82,17 +82,17 @@ function Header(props) {
             }
           >
             <div
-              className="min-w-4 w-4 min-h-4 h-4 rounded-full bg-theme1ToggleKeybg cursor-pointer"
+              className="min-w-4 w-4 min-h-4 h-4 rounded-full bg-theme1ToggleKeybg hover:brightness-125 cursor-pointer"
               id="theme-1"
               onClick={() => themeHandler(1)}
             ></div>
             <div
-              className="min-w-4 w-4 min-h-4 h-4 rounded-full bg-transparent cursor-pointer"
+              className="min-w-4 w-4 min-h-4 h-4 rounded-full bg-transparent hover:brightness-125 cursor-pointer"
               id="theme-2"
               onClick={() => themeHandler(2)}
             ></div>
             <div
-              className="min-w-4 w-4 min-h-4 h-4 rounded-full bg-transparent cursor-pointer"
+              className="min-w-4 w-4 min-h-4 h-4 rounded-full bg-transparent hover:brightness-125 cursor-pointer"
               onClick={() => themeHandler(3)}
               id="theme-3"
             ></div>

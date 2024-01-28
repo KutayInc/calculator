@@ -14,24 +14,24 @@ function Main(props) {
 
   const buttonClass =
     theme === 1
-      ? "font-bold text-theme1Text bg-theme1ButtonKeybg h-16 text-center rounded-lg text-3xl md:text-4xl button-1"
+      ? "font-bold text-theme1Text bg-theme1ButtonKeybg hover:brightness-125 h-16 text-center rounded-lg text-3xl md:text-4xl button-1"
       : theme === 2
-      ? "font-bold text-theme2Text bg-theme2ButtonKeybg h-16 text-center rounded-lg text-3xl md:text-4xl button-2"
-      : "font-bold text-theme3TextYellow bg-theme3ButtonKeybg h-16 text-center rounded-lg text-3xl md:text-4xl button-3";
+      ? "font-bold text-theme2Text bg-theme2ButtonKeybg hover:brightness-125 h-16 text-center rounded-lg text-3xl md:text-4xl button-2"
+      : "font-bold text-theme3TextYellow bg-theme3ButtonKeybg hover:brightness-125 h-16 text-center rounded-lg text-3xl md:text-4xl button-3";
 
   const delButtonClass =
     theme === 1
-      ? "bg-theme1Delbg del-button-1 "
+      ? "bg-theme1Delbg del-button-1 hover:brightness-125 "
       : theme === 2
-      ? "bg-theme2Delbg del-button-2 "
-      : "bg-theme3Delbg del-button-3 ";
+      ? "bg-theme2Delbg del-button-2 hover:brightness-125 "
+      : "bg-theme3Delbg del-button-3 hover:brightness-125 ";
 
   const resetButtonClass =
     theme === 1
-      ? "bg-theme1ToggleKeybg text-white reset-button-1 "
+      ? "bg-theme1ToggleKeybg text-white reset-button-1 hover:brightness-125 "
       : theme === 2
-      ? "bg-theme2ToggleKeybg text-white reset-button-2 "
-      : "bg-theme3ToggleKeybg text-theme3TextBlue reset-button-3 ";
+      ? "bg-theme2ToggleKeybg text-white reset-button-2 hover:brightness-125 "
+      : "bg-theme3ToggleKeybg text-theme3TextBlue reset-button-3 hover:brightness-125 ";
 
   const [prevValue, setPrevValue] = useState(0);
   const [operationValue, setOperationValue] = useState("");
